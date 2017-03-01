@@ -1,0 +1,79 @@
+Bug fixing comments
+===================
+
+This file lists the bugs observed in the .md files.
+
+- The parent directory contains the source files passed to conversion.
+- This directory contains the .docx file (as downloaded by the test harness) and .md file (as converted) by the test harness.
+
+## gdoc-to-msword-headers-and-paragraphs.docx
+
+Perfect!
+
+## gdoc-to-msword-list-elements.docx
+
+1. There is YAML front matter where there should just be paragraph text. This document has no YAML front matter.  
+
+## gdoc-to-msword-span-elements.docx
+
+1. There is YAML front matter where there should just be paragraph text. This document has no YAML front matter.  
+2. The span elements (bold, italic, bold italic) are not being converted properly. This might be a result of the  YAML bug.
+
+## gdoc-to-msword-table-elements.docx
+
+1. Table exporting appears completely broken here.
+
+## gdoc-to-msword-yaml-frontmatter-2.docx
+
+Nearly perfect!
+
+1. The YAML front matter has been given a double dilemeter.
+
+## gdoc-to-msword-yaml-frontmatter-3.docx
+
+Nearly perfect!
+
+1. There is an extra dilementer being added to the YAML front matter on both sides and the full-line dilemeter is being missed.
+
+## gdoc-to-msword-yaml-frontmatter-4.docx
+
+Perfect!
+
+## gdoc-to-msword-yaml-frontmatter.docx
+
+1. There is an extra dilementer being added to the YAML front matter on both sides and the full-line dilemeter is being missed. This appears perfect but it's only because of the extra dilemeter bug.
+
+## msword-headers-and-paragraphs.docx
+
+1. There is YAML front matter where there should just be paragraph text. This document has no YAML front matter.  
+2. The span elements (bold, italic, bold italic) are not being converted properly. This might be a result of the  YAML bug.
+3. "Intense quote" isn't being captured, but that's OK.
+
+## msword-list-elements.docx
+
+1. There is YAML front matter where there should just be paragraph text. This document has no YAML front matter.  
+
+## msword-span-elements.docx
+
+1. There is YAML front matter where there should just be paragraph text. This document has no YAML front matter.  
+2. The span elements (bold, italic, bold italic) are not being converted properly. This might be a result of the  YAML bug.
+
+## msword-table-elements.docx
+
+1. Table exporting appears completely broken here.
+
+## msword-yaml-front-matter-2.docx
+
+1. Test harness fails to produce a .md file
+
+## msword-yaml-front-matter-3.docx
+
+1. Test harness fails to produce a .md file
+
+## msword-yaml-front-matter-4.docx
+
+1. Test harness fails to produce a .md file
+
+## msword-yaml-front-matter.docx
+
+1. Test harness fails to produce a .md file
