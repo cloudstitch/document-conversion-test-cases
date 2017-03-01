@@ -1,10 +1,15 @@
-Bug fixing comments
-===================
+Bug Report for Document Conversion
+==================================
 
-This file lists the bugs observed in the .md files.
+This file lists the bugs observed in document conversion.
 
-- The parent directory contains the source files passed to conversion.
-- This directory contains the .docx file (as downloaded by the test harness) and .md file (as converted) by the test harness.
+- This directory contains the source files passed to conversion.
+- The `output` directory contains the .docx file (as downloaded by the test harness) and .md file (as converted) by the test harness.
+- The sections below contain our bug reports (or thumbs up) for each file.
+
+## intentionally absent
+
+Image testing -- I've seen this work in person to be confident we'll hammer out any remaining problems ourselves
 
 ## gdoc-to-msword-headers-and-paragraphs.docx
 
